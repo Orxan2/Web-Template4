@@ -1,0 +1,436 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html, body, a, ul, h4, div, p, img {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    transition: all .6s;
+}
+
+
+div.container>div.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #212529;
+    position: fixed;
+    z-index: 1;
+}
+
+div.container>div.navbar>.navbar-left {
+    padding: 20px 0;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 25px;
+}
+
+div.container>div.navbar>.navbar-left>a {
+    color: #fed136;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+div.container>div.navbar>.navbar-left>a:hover {
+    color: #ffc107;
+}
+
+div.container>div.navbar>.navbar-right {
+    float: left;
+    position: absolute;
+    right: 0;
+}
+
+div.container>div.navbar>.navbar-right>ul {
+    margin-right: 25px;
+}
+
+div.container>div.navbar>.navbar-right>ul>li {
+    list-style-type: none;
+    float: left;
+    margin: 20px 10px;
+    box-sizing: border-box;
+}
+
+div.container>div.navbar>.navbar-right>ul>li>a {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.container>div.navbar>.navbar-right>ul>li>a:hover {
+    color: #ffc107;
+}
+
+div.container>.home {
+    height: 800px;
+    width: 100%;
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+div.container>.home>div.intro-text{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  text-align: center;
+    color: #fff;
+    font-weight:bolder;
+ 
+}
+div.container>.home>div.intro-text>div.text1{
+     margin: 20px auto;
+     font-size: 40px;
+     font-family: 'Montserrat', sans-serif;
+ }
+ div.container>.home>div.intro-text>div.text2{
+    font-size: 80px;  
+       font-family: 'Montserrat Subrayada', sans-serif;
+    margin: 30px 0;
+}
+div.container>.home>div.intro-text>a>div.button{
+   width: 250px;
+   height: 75px;
+   background-color: #fed136;
+   margin: 40px auto;  
+   color: #fff;
+   padding: 20px 0;
+   box-sizing: border-box;
+   border-radius: 5px;
+   font-size: 25px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+div.container>.home>div.intro-text>a:hover>div.button{
+    background-color: #ffc107;
+ }
+
+
+div.container>.service {
+    height: 671px;
+    width: 100%;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+div.text
+{
+    width: 1140px;
+    height: 157px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+div.text>h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+div.text>h3 {
+    text-align: center;
+    color: #6c757d;
+}
+
+ div.container>.service>div.cards {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+div.container>.service>div.cards>div.card {
+    width: 380px;
+    height: 314px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+}
+
+div.container>.service>div.cards>div.card>.logo>span.icon {
+    width: 130px;
+    height: 128px;
+    background-color: #fed136;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.container>.service>div.cards>div.card>.logo>span.icon>i {
+    font-size: 50pt;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ div.container>.service>div.cards>div.card>div.info {
+    margin-top: 150px;
+}
+
+h4.h-edit {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin-top: 20px;
+}
+
+div.container>.service>div.cards>div.card>div.info>h4.h-edit {
+    margin: 15px 0;
+}
+
+p.edit {
+    font-family: 'Roboto Slab', serif;
+    color: #6c757d;
+    line-height: 1.75;
+    font-size: 18px;
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+ div.container>.portfolio {
+    height: 1154px;
+    width: 100%;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+div.container>.portfolio>div.image-contain {
+    width: 1140px;
+    height: 954px;
+    margin: 0 auto;
+}
+
+div.container>.portfolio>div.image-contain>div.image-box {
+    width: 350px;
+    height: 350px;
+    color: #212529;
+    display: inline-block;
+    float: left;
+    padding: 0 15px;
+    margin: 0 0 30px;
+}
+
+ div.container>.portfolio>div.image-contain>div.image-box>div.image-logo {
+    width: 350px;
+    height: 262.5px;
+    position: relative;
+}
+div.container>.portfolio>div.image-contain>div.image-box>div.image-logo>div.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+ div.container>.portfolio>div.image-contain>div.image-box>div.image-logo>div.overlay:hover {
+    opacity: 1;
+    background: rgba(254, 209, 54, .9);
+    cursor: pointer;
+}
+
+ div.container>.portfolio>div.image-contain>div.image-box>div.image-logo>div.overlay>span.plus>i {
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.container>div.team {
+    height: 851px;
+    width: 100%;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+div.container>div.team>div.our-team {
+    width: 1148px;
+    height: 422px;
+    margin: 0 auto;
+}
+
+div.container>div.team>div.our-team>div.team-card {
+    width: 380px;
+    height: 422px;
+    display: inline-block;
+    color: #212529;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+div.container>div.team>div.our-team>div.team-card>div.team-member {
+    width: 350px;
+    height: 372px;
+    margin: 0 0 50px;
+    position: relative;
+}
+ 
+ div.container>div.team>div.our-team>div.team-card>div.team-member>div.member-logo {
+    width: 350px;
+    height: 225px;
+}
+
+div.container>div.team>div.our-team>div.team-card>div.team-member>div.member-logo>img {
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.container>div.team>div.our-team>div.team-card>div.team-member>ul {
+    margin: 0 85px;
+}
+
+div.container>div.team>div.our-team>div.team-card>div.team-member>ul>li>a,
+/* Team*/
+
+div.container>div.footer>div.secondside>ul>li>a
+/* Footer */
+
+    {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: #212529;
+    ;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin: 0 5px;
+}
+
+div.container>div.team>div.our-team>div.team-card>div.team-member>ul>li>a:hover,
+/* Team*/
+
+div.container>div.footer>div.secondside>ul>li>a:hover
+/* Footer */
+
+    {
+    background-color: #fed136;
+}
+
+div.container>div.team>div.our-team>div.team-card>div.team-member>ul>li>a>span,
+/* Team*/
+
+div.container>div.footer>div.secondside>ul>li>a>span
+/* Footer */
+
+    {
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.container>div.team>div.our-team>div.textBOx {
+    width: 100%;
+    height: 72px;
+}
+
+div.container>div.team>div.our-team>div.textBOx>div.text-center {
+    width: 760px;
+    padding: 0 15px;
+    margin: 0 190px;
+    box-sizing: border-box;
+}
+
+div.container>div.team>div.our-team>div.textBOx>div.text-center>p.edit {
+    font-weight: 400;
+}
+
+div.container>div.support {
+    width: 1349px;
+    height: 146px;
+    padding: 48px 0;
+    box-sizing: border-box;
+}
+
+div.container>div.support>div.contain {
+    width: 1140px;
+    height: 50px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+div.container>div.support>div.contain>div.row {
+    width: 1140px;
+    height: 50x;
+}
+
+div.container>div.support>div.contain>div.row>div.support-logo {
+    width: 280px;
+    height: 50x;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+div.container>div.support>div.contain>div.row>div.support-logo>a {
+    scroll-behavior: unset;
+}
+
+div.container>div.support>div.contain>div.row>div.support-logo>a>img {
+    display: block;
+    margin: 0 27.5px;
+}
+
+div.container>div.footer {
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+}
+
+div.container>div.footer>div.firstside, div.container>div.footer>div.secondside, div.container>div.footer>div.thirdside {
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+    margin: 0 20px;
+}
+
+div.container>div.footer>div.firstside>p, div.container>div.footer>div.secondside>ul, div.container>div.footer>div.thirdside>ul {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0 30px;
+    box-sizing: border-box;
+    color: #212529;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.container>div.footer>div.secondside>ul {
+    padding: 15px 70px;
+    box-sizing: border-box;
+}
+
+div.container>div.footer>div.thirdside>ul>li {
+    display: inline-block;
+    float: left;
+    margin: 0 5px;
+}
+
+div.container>div.footer>div.thirdside>ul>li>a {
+    color: #fed136;
+}
+
+div.container>div.footer>div.thirdside>ul>li>a:hover {
+    text-decoration: underline;
+    color: #ffc107;
+}
